@@ -1,0 +1,15 @@
+Rule,Target / exclusion,How to apply
+Geography,Copenhagen + Greater Copenhagen,Expand only when asked
+Business type,Independent dental clinics only,"Reject multi-location chains, corporate networks and franchises"
+Accept titles,Klinikleder; klinikchef; praksismanager; klinikadministrator; administrationsansvarlig; operations manager; office manager,Publicly verify a specific person's current senior role
+Accept owner,Owner / director / managing partner,Allowed when no named senior operational manager is publicly available
+Reject titles,Receptionist; secretary; ordinary dental assistant; generic coordinator,Never present junior staff as senior decision-makers
+Reviews,3–30 Google reviews preferred,3–30 Google reviews preferred; >30 only if rating low. Verify rating and userRatingCount through Google Places API before reporting any figures.
+Required fields,Clinic + name + senior title + clinic phone + Google rating + review count,Omit a candidate if the named senior contact cannot be established
+Duplicate check,"Check name, aliases, address, and phone against Excluded Clinics",Do not recycle a clinic under a different name
+Chain check,Check Blocked Chains tab before proposing a clinic,Exclude all branches of listed chains
+Verification,Revalidate senior title and independent ownership,Prior lists may contain stale or inaccurate information
+Continuity,Use this Sheet as the ongoing exclusion record,Consult when prospecting; this does not automatically enforce future chats
+Review data source,Google Places API required,"Use current Google Places API data (rating + userRatingCount), matched by place ID and location. Do not substitute directory snapshots or imply API verification when unavailable."
+API connection,Secure authenticated connection required,"Never store API keys or credentials in this spreadsheet. If direct API access is unavailable, disclose that and do not mark counts as API-verified."
+Source traceability,Place ID + checked date,Record Google Place ID and retrieval date alongside each verified review figure so leads can be rechecked.
