@@ -2,7 +2,7 @@
 
 This repository contains exclusion data originally sourced from the Google Sheet [Dental Clinics — Exclusion List and Prospecting Rules](https://docs.google.com/spreadsheets/d/1r00Lppx_1IDU-qiPkbbRvaGekEJeL8hqxrboWz6pdZw/edit), first synced on 2026-11-16 and subsequently updated in GitHub.
 
-**Source of truth:** `excluded_clinics.csv` on the default branch. The live count is the number of non-header CSV records, not a fixed number in this README. As of 2026-11-21 the file has 361 rows (before any reconciliation of the separately stated expectation of 261). Do not delete or disregard records merely to match an expected count.
+**Source of truth:** `excluded_clinics.csv` on the default branch. The live count is the number of non-header CSV records, not a fixed number in this README. As of 2026-11-21 the file has 371 rows, including 10 added from the user's consolidated list on that date. Do not delete or disregard records merely to match an expected count.
 
 ## Exclusion sources
 
